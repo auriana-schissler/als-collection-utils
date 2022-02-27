@@ -1,0 +1,15 @@
+[package]
+name = "als-collection-utils"
+version = "0.0.0"
+edition = "2021"
+description = "ALS Collection Utils"
+repository = "https://github.com/auriana-schissler/als-collection-utils/"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+lto = true
+codegen-units = 1
+
+[dependencies]
